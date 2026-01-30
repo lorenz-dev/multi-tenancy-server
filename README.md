@@ -144,16 +144,16 @@
 > DB_POOL_MIN=2
 > DB_POOL_MAX=10
 >
-# Redis
+> # Redis
 > REDIS_URL=redis://localhost:6379
 > REDIS_CACHE_TTL_CLAIM=300
 > REDIS_CACHE_TTL_LIST=60
 >
-# JWT
+> # JWT
 > JWT_SECRET=your-secret-key-change-in-production
 > JWT_EXPIRES_IN=7d
 >
-# App
+> # App
 > PORT=3000
 > WORKER_PORT=3002
 > NODE_ENV=development
@@ -165,7 +165,7 @@
 > ENABLE_METRICS=true
 > METRICS_PATH=/metrics
 >
-# Cache
+> # Cache
 > ENABLE_CACHE=true
 >
 > # BullMQ
